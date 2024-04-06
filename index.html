@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<style>
+.bottomcontainer{
+background  :linear-gradient(to bottom , transparent , rgba(0, 0, 0, 0.6))
+}
+
+</style>
+<body>
+
+<div class="main bg-black-500 w-full h-screen " >
+  <div class="imagecontainer relative  w-full h-full overflow-hidden">
+    <div class="front absolute z-[2] w-[130%] top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 h-[130%]">
+        <img src="" class="w-full h-full object-cover" alt="">
+    </div>
+    <div class="incoming absolute z-[1] w-[130%] top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 h-[130%]">
+        <img src="" class="w-full h-full object-cover" alt="">
+    </div>
+  </div>
+  
+<div class="design z-[3] bg-black bg-opacity-40 top-0 absolute w-full h-full  flex flex-col justify-between ">
+    <div class="navbar w-full h-30 flex items-center justify-between p-3.5">
+        <div class="profile w-[3.8rem] h-[3.8rem] rounded-full  overflow-hidden">
+            <img src="" class="w-full h-full object-cover" alt="">
+        </div>
+        <div class="text-white text-2xl font-mono font-bold tra">I liked You </div>
+        <div class=" relative  w-[3.5rem] h-[3.5rem] rounded-full flex items-center justify-center bg-white bg-opacity-40">
+            <h4 class=" chat text-white text-xl"><i class=" ri-chat-1-fill"></i></h4>
+            <div class="message absolute -top-0.5 -right-1 w-[1.5rem] h-[1.5rem] bg-red-500 rounded-full flex items-center justify-center">
+                <h5 class=" text-[.8rem] font-bold text-white">5+</h5>
+            </div>
+        </div>
+    </div>
+    <div class="bottomcontainer w-full p-3.5">
+     <div class="flex element location ">
+        <h4><i class=" bg-white  rounded-full mr-4 ri-arrow-up-fill p-1"></i></h4>
+        <h5 class="text-white text-xl ">Bihar , India </h5>
+     </div>
+     <div class="name element  flex gap-2 text-5xl text-white items-center">
+        <h2 class=" capitalize text-white text-6xl">Victoria</h2>
+        <h3 class=" opacity-60 font-bold mt-2.5" >20</h3>
+     </div>
+     <div class=" tags element  mt-4 flex gap-2 ">
+        
+     </div>
+     <div class="bio element ">
+        <p class="text-white font-bold mt-3">Bio</p>
+        <p class=" description text-white font-lighter mt-2 capitalize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem beatae vel, nihil recusandae pariatur facilis?</p>
+     </div>
+     <div class="buttons element  flex gap-2 mt-3">
+        <button class=" cross bg-white  w-full h-[3rem] rounded-[.5rem] text-4xl">x</button>
+        <button class=" like bg-green-400  w-full h-[3rem] rounded-[.5rem]"><i class=" text-3xl text-pink-600 ri-heart-2-fill"></i></button>
+      </div>
+  </div> 
+</div>
+
+<div class="background w-full h-screen absolute top-0 left-0 bg-black bg-opacity-40 hidden z-[3]">
+</div>
+<div class="store-div overflow-x-hidden w-full h-screen absolute top-0 left-0 ">
+<div class=" store flex flex-col gap-2  w-[70%] absolute top-0 -right-[100%] bg-green-400 z-[4] pt-14 pl-2 pr-2 pb-3">
+    
+</div>
+<div> <p><i class=" hidden minus absolute top-3 right-4 z-[4] text-3xl ri-indeterminate-circle-line"></i></p> </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+    <script src="script.js"></script>
+
+</html>
